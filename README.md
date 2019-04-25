@@ -16,7 +16,8 @@ Example:
 step-2
 ------
 
-create bean for following
+create following beans
+----------------------
 1-ConnectionFactory --- for the connection of rabbitmq <br>
 2-SimpleMessageListenerContainer --for listening the associated queue.<br>
 3-MessageListenerAdapter --for mapping the receiver method to receive message<br>
